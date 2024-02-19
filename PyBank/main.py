@@ -62,7 +62,7 @@ print("Greatest Decrease in Profits: " + str(date[decrease_index+1]) + " ($" + s
 
 
 #Print to a txt file
-f = open("output.txt", "w")
+f = open("analysis\output.txt", "w")
 f.write("Financial Analysis")
 f.write('\n')
 f.write("----------------------------")

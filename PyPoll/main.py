@@ -43,7 +43,7 @@ print("----------------------------")
 
 
 #Write results into a txt file
-f = open("output.txt", "w")
+f = open("analysis\output.txt", "w")
 f.write("Election Results")
 f.write('\n')
 f.write("----------------------------")
