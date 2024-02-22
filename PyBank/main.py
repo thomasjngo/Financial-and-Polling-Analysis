@@ -37,7 +37,6 @@ with open(excel_file) as csvfile:
 #(1 less delta than the number of total months)
 average_delta = sum(delta_change)/(month_count-1)
 
-
 greatest_increase = 0
 greatest_decrease = 0
 increase_index = 0
@@ -59,7 +58,6 @@ print("Total: $" + str(total_money))
 print("Average Change: $" + str(round(average_delta,2)))
 print("Greatest Increase in Profits: " + str(date[increase_index+1]) + " ($" + str(greatest_increase) + ")")
 print("Greatest Decrease in Profits: " + str(date[decrease_index+1]) + " ($" + str(greatest_decrease) + ")")
-
 
 #Print to a txt file
 f = open("analysis\output.txt", "w")
